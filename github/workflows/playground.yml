@@ -9,4 +9,4 @@ jobs:
 
   steps:
     name: Executa echo
-    run: echo hello world
+    run: echo hello world!
