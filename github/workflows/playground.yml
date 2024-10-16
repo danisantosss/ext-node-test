@@ -5,10 +5,10 @@ on: [push, pull_request]
 jobs:
   linux_job:
 
-  runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
 
-  steps:
-  - name: Executa echo
-    run: echo hello world!
-  - name: Executa pwd
-    run: echo pwd
+    steps:
+      - name: Executa echo
+        run: echo hello world!
+      - name: Executa pwd
+        run: echo pwd
